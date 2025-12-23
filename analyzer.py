@@ -44,6 +44,9 @@ while True:
         else:
             count_special += 1
 
+        if i in string.ascii_uppercase:
+            point += 3
+
     if  6 > count_total > 0:
         print("Input is too short. Minimum length is 6 characters.")
 
